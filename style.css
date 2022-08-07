@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* calculator appearance */
+#calculator{
+    position: relative;
+    top: 10%;
+    left: 37.25%;
+    margin-top: -1%;
+    width: 500px;
+    height: 700px;
+    background: gray;
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+}
+
+/* calculator input appearance */
+#input{
+    position: relative;
+    top: 5%;
+    left: 4.5%;
+    width: 450px;
+    height: 75px;
+    background-color: white;   
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#input p{
+    font-size: 60px;
+    position: relative;
+    top: -75%;
+    left: 0%;
+    text-align: right;
+    overflow: hidden;
+}
+
+/* button appearance */
+.btn{
+    font-size: 50px;
+    padding: 10px 20px;
+    border: 2.5px solid lightgrey;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: azure;
+    border: 2.5px solid black;
+    text-shadow: 1px 1px 0px gray;
+}
+
+
+/* position of group of buttons */
+.clear-back-percent{
+    margin-top: 55px;
+}
+
+.nine-eight-seven{
+    margin-top: 30px;
+}
+
+.six-five-four{
+    margin-top: 30px;
+}
+
+.three-two-one{
+    margin-top: 30px;
+}
+
+.decimal-zero-plus{
+    margin-top: 30px;
+}
+
+/* position of each button */
+#btn-divide, #btn-times, #btn-minus{
+    position: relative;
+    top: 10%;
+    left: 35%;
+}
+
+#btn-nine, #btn-six, #btn-three{
+    position: relative;
+    top: 10%;
+    left: 55%;
+}
+
+#btn-eight, #btn-five, #btn-two, #btn-zero{
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+#btn-seven, #btn-four, #btn-one{
+    position: relative;
+    top: 10%;
+    left: -25%;
+}
+
+#btn-clear, #btn-back, #btn-percent{
+    position: relative;
+    left: 10%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#btn-decimal{
+    font-size: 50px; 
+    padding: 10px 26px;
+    position: relative;
+    left: 30px;
+}
+
+#btn-equals{
+    padding: 10px 25px;
+    position: relative;
+    left: 170px;
+}
+
+#btn-times{
+    padding: 10px 21.5px;
+}
+
+#btn-minus{
+    padding: 10px 25px;
+}
+
+#btn-plus{
+    padding: 10px 19px;
+    position: relative;
+    left: 123px;
+}
